@@ -1,0 +1,12 @@
+.profile-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;  /* Adjust spacing between the photo and the text */
+  }
+  
+  .profile-photo {
+    width: 150px;  /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%;  /* Makes the photo circular */
+    object-fit: cover;
+  }
